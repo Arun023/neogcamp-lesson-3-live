@@ -42,7 +42,7 @@
     <h2>@lists</h2>
     <h3>Unordered Lists</h3>
 
-    <ul>
+    <ul class="list-no-bullet">
         <li>HTML</li>
         <li>CSS</li>
         <li>JAVASCRIPT</li>
@@ -53,25 +53,26 @@
 
     <h3>Inline Unordered Lists</h3>
 
-    <ul>
-        <li>Inline HTML</li>
-        <li>Inline CSS</li>
+    <ul class="list-no-bullet">
+        <li class="list-item-inline">Inline HTML</li>
+        <li class="list-item-inline">Inline CSS</li>
     </ul>
+    <h3>Reversed order list</h3>
+    <ol reversed>
+        <li>Cloud Computing</li>
+        <li>Azure</li>
+        <li>AI</li>
+        <li>ML</li>
+    </ol>
 
     <hr>
     <h2>@Nav</h2>
-    <nav>
-        <div>IamDeveloper</div>
-        <ul>
-            <li>
-                <a href="/">Home</a>
-            </li>
-            <li>
-                <a href="/">Projects</a>
-            </li>
-            <li>
-                <a href="/">Blogs</a>
-            </li>
+    <nav class="navigation container">
+        <div class="nav-brand">IamDeveloper</div>
+        <ul class="list-no-bullet nav-pills">
+            <li class="list-item-inline"><a class="link" href="/">Home</a></li>
+            <li class="list-item-inline"><a class="link" href="/">Projects</a></li>
+            <li class="list-item-inline"><a class="link" href="/">Blogs</a> </li>
         </ul>
     </nav>
 
