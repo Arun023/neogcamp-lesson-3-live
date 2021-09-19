@@ -48,7 +48,8 @@ hr{
 .navigation{
     background-color: var(--color);
     color: white;
-    padding:0.8rem
+    padding:0.8rem;
+    border-bottom-left-radius: 1rem;
 }
 .navigation .nav-brand{
     font-weight: bold;
@@ -59,4 +60,17 @@ hr{
 }
 .navigation .link{
     color: white;
+}
+.navigation .link-active{
+    font-weight: bolder;
+}
+
+/** Header **/
+
+.hero{
+    padding: 2rem 0rem;
+    border: black solid 2px;
+}
+.hero .hero-img{
+    max-width: 450px;
 }
