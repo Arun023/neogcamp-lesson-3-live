@@ -18,7 +18,8 @@
 
     <h2>@typography</h2>
     <h1>This is biggest text size</h1>
-    <p>Let me show you this thing this is normal text. This is free flow text and will wrap the text end like a paragraph</p>
+    <p>Let me show you this thing this is normal text. This is free flow text and will wrap the text end like a
+        paragraph</p>
     <p>This Text will have <strong>Bold</strong> Text</p>
     <small>Smallest text in html</small>
 
@@ -80,32 +81,41 @@
 
     <h2>@Header</h2>
     <header class="hero">
-    <img class="hero-img" src="images/banner.svg" alt="Sorry! ">
-    <h1 class="hero-heading">Arun Choudhary the <span> Web Developer</span></h1>
+        <img class="hero-img" src="images/banner.svg" alt="Sorry! ">
+        <h1 class="hero-heading">Arun Choudhary the <span> Web Developer</span></h1>
     </header>
     <hr>
 
     <h2>@section</h2>
 
     <section class="section">
+    <div class="container container-center">
         <h1>@White Section</h1>
         <p>This will have White background</p>
-        <a href="/">White</a>
+        <a class="link link-primary" href="/">White</a>
+    </div>
     </section>
-    <section class="section">
+    <section class="section offwhite">
+    <div class="container container-center">
         <h1>@Off white Section</h1>
         <p>This will have gray background</p>
-        <a href="/">Gray</a>
+        <a class="link link-primary" href="/">Gray</a>
+    </div>
     </section>
 
     <hr>
     <h2>@footer</h2>
-    <footer>
-        <div>Some Heading in footer</div>
-        <ul>
-            <li>InSta</li>
-            <li>YouTube</li>
-            <li>GitHub</li>
+    <footer class="footer container">
+        <div class="footer-heading">Some Heading in footer</div>
+        <ul class="social-links list-no-bullet">
+            <li class="list-item-inline">
+                <a class="link" href="/">Insta</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="/">YouTube</a></li>
+            <li class="list-item-inline">
+                <a class="link " href="/">GitHub</a>
+            </li>
         </ul>
     </footer>
 

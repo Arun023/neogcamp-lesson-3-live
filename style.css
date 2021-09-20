@@ -1,93 +1,128 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;600&display=swap');
 
-:root{
-    --basecolor:#10B981;
-    --greycolor:#6B7280;
+:root {
+    --basecolor: #10B981;
+    --greycolor: #6B7280;
+    --darkgrey:#F3F4F6;
 }
 
 body {
     font-family: 'Roboto Slab', serif;
+    margin: 0px;
 }
 
-hr{
-    margin: 2rem 0rem;  
+hr {
+    margin: 2rem 0rem;
 }
+
 /** container **/
 
-.container{
+.container {
     padding: 0rem 1rem;
 }
 
-.container-center{
+.container-center {
     max-width: 600px;
     margin: auto;
 }
 
-.link{
+.link {
     text-decoration: none;
-    padding:0.5rem 1rem;
+    padding: 0.5rem 1rem;
 }
-.link-primary{
-    background-color:var(--basecolor);
+
+.link-primary {
+    background-color: var(--basecolor);
     border-radius: 0.5rem;
-    color:white;
+    color: white;
 }
-.link-secondary{
+
+.link-secondary {
     border-radius: 0.5rem;
-    color:var(--basecolor);
+    color: var(--basecolor);
     border: 1px solid var(--basecolor);
 }
 
-.list-no-bullet{
+.list-no-bullet {
     list-style: none;
 }
-.list-item-inline{
+
+.list-item-inline {
     display: inline;
     padding: 0rem 0.5rem;
 }
 
-.navigation{
+.navigation {
     background-color: var(--basecolor);
     color: white;
-    padding:0.8rem;
+    padding: 0.8rem;
     border-bottom-left-radius: 1rem;
 }
-.navigation .nav-brand{
+
+.navigation .nav-brand {
     font-weight: bold;
     font-size: 1.5rem;
 }
-.navigation .nav-pills{
+
+.navigation .nav-pills {
     text-align: right;
 }
-.navigation .link{
+
+.navigation .link {
     color: white;
 }
-.navigation .link-active{
+
+.navigation .link-active {
     font-weight: bolder;
 }
 
 /** Header **/
 
-.hero{
+.hero {
     padding: 2rem 0rem;
     border: black solid 2px;
 }
-.hero .hero-img{
+
+.hero .hero-img {
     max-width: 450px;
     display: block;
     margin: auto;
 }
-.hero .hero-heading{
-     color: var(--greycolor);
+
+.hero .hero-heading {
+    color: var(--greycolor);
     padding: 1rem 2rem;
+    text-align: center;
 }
-.hero .hero-heading span{
+
+.hero .hero-heading span {
     color: var(--basecolor);
 }
 
 /**  sections **/
-
-.section h1{
-    text-align: center;
+.section{
     padding: 2rem;
+}
+.section h1 {
+    text-align: center;
+    /* padding: 2rem; */
+}
+.offwhite{
+    background-color: var(--darkgrey);
+}
+
+/** footers **/
+
+.footer{
+    background-color: var(--basecolor); 
+    padding: 1rem;
+    text-align: center;
+    color: white;
+    border-top-right-radius: 1rem;
+}
+.footer .link{
+    color: white;
+}
+.footer ul{
+    padding-inline-start: 0px;
 }
