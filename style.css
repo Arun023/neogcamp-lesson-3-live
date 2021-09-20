@@ -84,3 +84,10 @@ hr{
 .hero .hero-heading span{
     color: var(--basecolor);
 }
+
+/**  sections **/
+
+.section h1{
+    text-align: center;
+    padding: 2rem;
+}
