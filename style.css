@@ -9,6 +9,8 @@
 body {
     font-family: kumbh sans;
     margin: 0px;
+    background-color: var(--basecolor);
+    color: white;
 }
 
 hr {
@@ -32,15 +34,15 @@ hr {
 }
 
 .link-primary {
-    background-color: var(--basecolor);
+    background-color: var(--greycolor);
     border-radius: 0.5rem;
     color: white;
 }
 
 .link-secondary {
     border-radius: 0.5rem;
-    color: var(--basecolor);
-    border: 2px solid var(--basecolor);
+    color: var(--darkgrey);
+    border: 2px solid var(--greycolor);
     margin-left: 1rem;
 }
 
@@ -84,6 +86,7 @@ hr {
 
 .hero {
     padding: 2rem 0rem;
+    padding-top: 5rem;
     /* border: black solid 2px; */
 }
 
@@ -115,7 +118,7 @@ hr {
     margin-bottom: 2rem;
 }
 .offwhite{
-    background-color: var(--darkgrey);
+    /* background-color: var(-); */
 }
 
 /** footers **/
