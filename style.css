@@ -41,6 +41,7 @@ hr {
     border-radius: 0.5rem;
     color: var(--basecolor);
     border: 2px solid var(--basecolor);
+    margin-left: 1rem;
 }
 
 .list-no-bullet {
@@ -87,7 +88,7 @@ hr {
 }
 
 .hero .hero-img {
-    max-width: 450px;
+    max-width: 350px;
     display: block;
     margin: auto;
 }
