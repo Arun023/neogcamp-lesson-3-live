@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans&family=Play&display=swap');
-
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    line-height: 1.8rem;
+}
 :root {
     --basecolor:#374151;
     --greycolor: #10b981;
@@ -85,19 +90,28 @@ hr {
 /** Header **/
 
 .hero {
-    padding: 2rem 0rem;
-    padding-top: 5rem;
+    padding: 5rem;
     /* border: black solid 2px; */
+    display: flex;
+    justify-content: center;
 }
-
+#left-content,#right-content{
+    margin: 10px;
+    padding: 10px;
+}
 .hero .hero-img {
     max-width: 350px;
     display: block;
     margin: auto;
 }
+.hero .small-text{
+    text-align: center;
+    margin: auto;
+    max-width: 400px;
+}
 
 .hero .hero-heading {
-    color: var(--greycolor);
+    color: var(--darkgrey);
     padding: 1rem 2rem;
     text-align: center;
 }
@@ -109,18 +123,24 @@ hr {
 /**  sections **/
 .section{
     padding: 2rem;
+    display: flex;
+    flex-direction: column;
 }
 .section h1 {
     text-align: center;
-    /* padding: 2rem; */
+    padding: 2rem;
 }
-.section .link .link-primary p{
-    margin-bottom: 2rem;
+.icons{
+    padding: 20px;
+    font-size: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
 }
-.offwhite{
-    /* background-color: var(-); */
+.icons .icons-padding{
+    padding: 25px;
 }
-
 /** footers **/
 
 .footer{
