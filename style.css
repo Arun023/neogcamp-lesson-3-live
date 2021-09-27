@@ -94,6 +94,7 @@ hr {
     /* border: black solid 2px; */
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
 #left-content,#right-content{
     margin: 10px;
