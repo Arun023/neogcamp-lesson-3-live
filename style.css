@@ -187,6 +187,7 @@ hr {
     box-sizing: border-box;
     border-radius: 2rem;
     margin: 3rem;
+    flex-wrap: wrap;
 }
 .project-block .project-links{
     display: flex;
