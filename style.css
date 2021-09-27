@@ -35,7 +35,7 @@ hr {
 
 .link {
     text-decoration: none;
-    padding: 0.5rem 1rem;
+    padding: 0.3rem 1rem;
 }
 
 .link-primary {
@@ -48,6 +48,7 @@ hr {
     border-radius: 1rem;
     color: var(--darkgrey);
     border: 2px solid var(--greycolor);
+    text-align: center;
 }
 
 .list-no-bullet {
@@ -89,7 +90,7 @@ hr {
 /** Header **/
 
 .hero {
-    padding: 5rem;
+    padding: 2rem;
     /* border: black solid 2px; */
     display: flex;
     justify-content: center;
@@ -118,7 +119,9 @@ hr {
 .hero .hero-heading span {
     color: var(--basecolor);
 }
-
+.container .hero{
+    padding: 2rem;
+}
 /**  sections **/
 .section{
     padding: 2rem;
@@ -177,14 +180,21 @@ hr {
 
 .project-block{
     display: flex;
-    max-width: 40rem;
+    /* max-width: auto; */
     flex-direction: column;
-    padding: 10px;
-}
-.project-block .link-secondary{
-    /* max-width: 9rem; */
+    padding: 1.2rem 2rem;
+    border: 2px solid var(--darkgrey);
+    box-sizing: border-box;
+    border-radius: 2rem;
+    margin: 3rem;
 }
 .project-block .project-links{
     display: flex;
     align-items: center;
+}
+.project-links .link-primary{
+    margin: 15px;
+}
+.project-links .link-secondary{
+    margin: 15px;
 }
